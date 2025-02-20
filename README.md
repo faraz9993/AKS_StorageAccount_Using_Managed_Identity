@@ -42,7 +42,7 @@ az aks update --resource-group <Resource_Group_Name> --name <AKS_Cluster_Name> -
 az role assignment create --assignee 60xxxxea-6xxe-4xx7-8xxb-bxxxxxxxxx28 --role "Storage Blob Data Contributor" --scope "/subscriptions/66xxxxx7-1xx2-4xx3-bxx5-a4axxxxxxxf6b/resourceGroups/<Resource_Group_Name>/providers/Microsoft.Storage/storageAccounts/<Storage_Account_Name>/blobServices/default/containers/<Container_Name>"
 ```
 
-## Below are the python code and kubernetes manifest files whcih will be needed:
+## Below are the needed python code and kubernetes manifest files:
 
 ## requirements.txt:
 ```
