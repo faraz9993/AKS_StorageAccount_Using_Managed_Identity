@@ -1,5 +1,5 @@
 # AKS_StorageAccount_Using_Managed_Identity
-### In this document, I have mentioned that how a pod of an AKS Cluster can communicate with Storage account using user_assigned managed identity.
+### In this document, I have mentioned that how a pod of an AKS Cluster can communicate with Storage account using "user_assigned" managed identity.
 
 ## Create AKS Cluster using below command:
 ```
