@@ -105,10 +105,10 @@ except Exception as e:
 kubectl create configmap sample-source --from-file=sample-source.txt=/location/to/file/sample-source.txt
  
 
- kubectl create configmap app-py --from-file=app.py=/location/to/file/app.py
+kubectl create configmap app-py --from-file=app.py=/location/to/file/app.py
  
 
- kubectl create configmap requirements-txt --from-file=requirements.txt=/location/to/file/requirements.txt
+kubectl create configmap requirements-txt --from-file=requirements.txt=/location/to/file/requirements.txt
 ```
 
 ## identity.yaml:
